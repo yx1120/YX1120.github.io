@@ -130,11 +130,14 @@ backup:
     type: git
     repository:
        github: git@github.com:yx1120/YX1120.github.io.git,backup
+       coding: git@e.coding.net:mangoxu/Roise.git,backkup
     
 
 # Deployment
 ## Docs: https://hexo.io/docs/deployment.html
 deploy:
   type: git
-  repository: git@github.com:yx1120/YX1120.github.io.git
+  repository: 
+    github: git@github.com:yx1120/YX1120.github.io.git
+    coding: git@e.coding.net:mangoxu/Roise.git
   bransh: master
