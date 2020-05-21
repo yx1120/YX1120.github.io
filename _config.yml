@@ -128,6 +128,7 @@ feed:
 # 博客备份
 backup:
     type: git
+    theme: ayer
     repository:
        github: git@github.com:yx1120/YX1120.github.io.git,backup
        coding: git@e.coding.net:mangoxu/Roise.git,backup
