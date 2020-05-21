@@ -130,7 +130,7 @@ backup:
     type: git
     repository:
        github: git@github.com:yx1120/YX1120.github.io.git,backup
-       coding: git@e.coding.net:mangoxu/Roise.git,backkup
+       coding: git@e.coding.net:mangoxu/Roise.git,backup
     
 
 # Deployment
