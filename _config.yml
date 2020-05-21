@@ -131,7 +131,6 @@ backup:
     theme: ayer
     repository:
        github: git@github.com:yx1120/YX1120.github.io.git,backup
-       coding: ssh://git@e.coding.net:mangoxu/Roise.git,backup
     
 
 # Deployment
