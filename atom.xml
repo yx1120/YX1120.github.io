@@ -6,7 +6,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="http://yoursite.com/"/>
-  <updated>2020-05-21T11:25:50.948Z</updated>
+  <updated>2020-05-22T06:10:55.835Z</updated>
   <id>http://yoursite.com/</id>
   
   <author>
@@ -15,6 +15,60 @@
   </author>
   
   <generator uri="https://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>Java8-Stream流</title>
+    <link href="http://yoursite.com/2020/05/22/Java8--Stream%E6%B5%81/"/>
+    <id>http://yoursite.com/2020/05/22/Java8--Stream%E6%B5%81/</id>
+    <published>2020-05-22T06:10:00.000Z</published>
+    <updated>2020-05-22T06:10:55.835Z</updated>
+    
+    <summary type="html">
+    
+      
+      
+        
+        
+          &lt;h3 id=&quot;简介&quot;&gt;&lt;a href=&quot;#简介&quot; class=&quot;headerlink&quot; title=&quot;简介&quot;&gt;&lt;/a&gt;简介&lt;/h3&gt;&lt;p&gt;&lt;code&gt;java.util.Stream&lt;/code&gt; 表示能应用在一组元素上一次执行的操作序列。Stream
+        
+      
+    
+    </summary>
+    
+    
+      <category term="Java" scheme="http://yoursite.com/categories/Java/"/>
+    
+    
+      <category term="java8新特性" scheme="http://yoursite.com/tags/java8%E6%96%B0%E7%89%B9%E6%80%A7/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>Java8-Lambda表达式</title>
+    <link href="http://yoursite.com/2020/05/22/Java8--Lambda%E8%A1%A8%E8%BE%BE%E5%BC%8F/"/>
+    <id>http://yoursite.com/2020/05/22/Java8--Lambda%E8%A1%A8%E8%BE%BE%E5%BC%8F/</id>
+    <published>2020-05-22T06:08:00.000Z</published>
+    <updated>2020-05-22T06:09:20.113Z</updated>
+    
+    <summary type="html">
+    
+      
+      
+        
+        
+          &lt;h3 id=&quot;一、Lambda基础语法&quot;&gt;&lt;a href=&quot;#一、Lambda基础语法&quot; class=&quot;headerlink&quot;
+        
+      
+    
+    </summary>
+    
+    
+      <category term="Java" scheme="http://yoursite.com/categories/Java/"/>
+    
+    
+      <category term="java8新特性" scheme="http://yoursite.com/tags/java8%E6%96%B0%E7%89%B9%E6%80%A7/"/>
+    
+  </entry>
   
   <entry>
     <title>Java-JUC编程（1）</title>
@@ -126,11 +180,11 @@
   </entry>
   
   <entry>
-    <title>Travel Log-1</title>
+    <title>Travel Log</title>
     <link href="http://yoursite.com/2020/05/19/travel/"/>
     <id>http://yoursite.com/2020/05/19/travel/</id>
     <published>2020-05-19T15:26:13.000Z</published>
-    <updated>2020-05-21T11:20:14.321Z</updated>
+    <updated>2020-05-22T06:10:22.614Z</updated>
     
     <summary type="html">
     
