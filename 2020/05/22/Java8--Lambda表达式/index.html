@@ -74,7 +74,7 @@
         <span class="post-meta-item-icon">
             <i class="ri-quill-pen-line"></i>
             <span class="post-meta-item-text"> 字数统计:</span>
-            <span class="post-count">1.1k</span>
+            <span class="post-count">921</span>
         </span>
     </span>
 
@@ -83,7 +83,7 @@
         <span class="post-meta-item-icon">
             <i class="ri-book-open-line"></i>
             <span class="post-meta-item-text"> 阅读时长≈</span>
-            <span class="post-count">5 分钟</span>
+            <span class="post-count">4 分钟</span>
         </span>
     </span>
 </div>
@@ -165,10 +165,6 @@
 
 <p>输出：</p>
 <figure class="highlight java"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">User&#123;name=<span class="string">'Tom'</span>&#125;</span><br></pre></td></tr></table></figure>
-
-
-
-<figure class="highlight java"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br><span class="line">18</span><br><span class="line">19</span><br><span class="line">20</span><br><span class="line">21</span><br><span class="line">22</span><br><span class="line">23</span><br><span class="line">24</span><br><span class="line">25</span><br><span class="line">26</span><br><span class="line">27</span><br><span class="line">28</span><br><span class="line">29</span><br><span class="line">30</span><br><span class="line">31</span><br><span class="line">32</span><br></pre></td><td class="code"><pre><span class="line">   </span><br><span class="line"><span class="comment">/**</span></span><br><span class="line"><span class="comment"> * 方法引用和构造器引用</span></span><br><span class="line"><span class="comment"> * ### 1、方法引用</span></span><br><span class="line"><span class="comment"> * &lt;p&gt;</span></span><br><span class="line"><span class="comment"> * 使用前提: **`Lambda`体中调用方法的参数列表和返回值类型，要和函数式接口中抽象方法的参数列表和返回值类型保持一致；**&lt;/font&gt;</span></span><br><span class="line"><span class="comment"> * &lt;p&gt;</span></span><br><span class="line"><span class="comment"> * #### 1)、语法格式(一) 对象::实例方法名</span></span><br><span class="line"><span class="comment"> * Consumer`中的`accept()`方法和`println()`方法的参数列表和返回类型要完全一致:**</span></span><br><span class="line"><span class="comment"> */</span></span><br><span class="line"><span class="meta">@Test</span></span><br><span class="line"><span class="function"><span class="keyword">public</span> <span class="keyword">void</span> <span class="title">test9</span><span class="params">()</span> </span>&#123;</span><br><span class="line">    <span class="comment">//普通写法</span></span><br><span class="line">    PrintStream ps = System.out;</span><br><span class="line">    Consumer&lt;String&gt; con = (x) -&gt; ps.println(x);</span><br><span class="line">    con.accept(<span class="string">"hello !"</span>);</span><br><span class="line">&#125;</span><br><span class="line"></span><br><span class="line"><span class="meta">@Test</span></span><br><span class="line"><span class="function"><span class="keyword">public</span> <span class="keyword">void</span> <span class="title">test9_2</span><span class="params">()</span> </span>&#123;</span><br><span class="line">    PrintStream ps = System.out;</span><br><span class="line">    <span class="comment">//简写</span></span><br><span class="line">    Consumer&lt;String&gt; con1 = ps::println;</span><br><span class="line">    con1.accept(<span class="string">"hello !!"</span>);</span><br><span class="line">&#125;</span><br><span class="line"></span><br><span class="line"><span class="meta">@Test</span></span><br><span class="line"><span class="function"><span class="keyword">public</span> <span class="keyword">void</span> <span class="title">test9_3</span><span class="params">()</span> </span>&#123;</span><br><span class="line">    <span class="comment">//更简单的写法</span></span><br><span class="line">    Consumer&lt;String&gt; con2 = System.out::println;</span><br><span class="line">    con2.accept(<span class="string">"hello !!!"</span>);</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
 
 <h3 id="五、方法引用"><a href="#五、方法引用" class="headerlink" title="五、方法引用"></a>五、方法引用</h3><blockquote>
 <p>下表引用自：<a> <a href="https://www.cnblogs.com/wuhenzhidu/p/10727065.html" target="_blank" rel="noopener">https://www.cnblogs.com/wuhenzhidu/p/10727065.html</a> 侵删</a></p>
