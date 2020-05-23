@@ -111,6 +111,19 @@
     
 
     
+    <div class="article-entry" itemprop="articleBody">
+      
+      
+
+      
+      <h3 id="简介"><a href="#简介" class="headerlink" title="简介"></a>简介</h3><p><code>java.util.Stream</code> 表示能应用在一组元素上一次执行的操作序列。Stream 操作分为中间操作或者最终操作两种，最终操作返回一特定类型的计算结果，而中间操作返回Stream本身，这样你就可以将多个操作依次串起来。Stream 的创建需要指定一个数据源，比如<code>java.util.Collection</code> 的子类，List 或者 Set， Map 不支持。Stream 的操作可以串行执行或者并行执行。</p>
+      
+      <a class="article-more-link" href="/2020/05/22/Java8--Stream%E6%B5%81/">阅读更多...</a>
+      
+      
+      <!-- reward -->
+      
+    </div>
     
     
       <!-- copyright -->
@@ -172,6 +185,27 @@
     
 
     
+    <div class="article-entry" itemprop="articleBody">
+      
+      
+
+      
+      <h3 id="一、Lambda基础语法"><a href="#一、Lambda基础语法" class="headerlink" title="一、Lambda基础语法"></a>一、Lambda基础语法</h3><p>1）<code>-&gt;</code>：箭头表达式</p>
+<ul>
+<li><p>箭头左边：参数列表   ，无参使用() </p>
+</li>
+<li><p>箭头右边：实现接口中抽象方法的实现代码</p>
+</li>
+</ul>
+<p>2）只有一个参数的话，可以省略参数的括号实现</p>
+<p>3）只有一条语句的话，可以省略大括号，也可省略<code>return</code>关键字</p>
+      
+      <a class="article-more-link" href="/2020/05/22/Java8--Lambda%E8%A1%A8%E8%BE%BE%E5%BC%8F/">阅读更多...</a>
+      
+      
+      <!-- reward -->
+      
+    </div>
     
     
       <!-- copyright -->
@@ -233,6 +267,23 @@
     
 
     
+    <div class="article-entry" itemprop="articleBody">
+      
+      
+
+      
+      <h3 id="一、进程与线程"><a href="#一、进程与线程" class="headerlink" title="一、进程与线程"></a>一、进程与线程</h3><h4 id="1）区别"><a href="#1）区别" class="headerlink" title="1）区别"></a>1）区别</h4><ul>
+<li>进程是程序的一次执行过程，操作系统分配资源给进程。</li>
+<li>一个进程包含一个或多个线程，这些线程共享进程分配的资源</li>
+<li>线程是任务调度和执行的基本单位 </li>
+</ul>
+      
+      <a class="article-more-link" href="/2020/05/21/Java-JUC%E7%BC%96%E7%A8%8B%EF%BC%881%EF%BC%89/">阅读更多...</a>
+      
+      
+      <!-- reward -->
+      
+    </div>
     
     
       <!-- copyright -->
@@ -294,6 +345,21 @@
     
 
     
+    <div class="article-entry" itemprop="articleBody">
+      
+      
+
+      
+      <h3 id="一、线程的创建方式"><a href="#一、线程的创建方式" class="headerlink" title="一、线程的创建方式"></a>一、线程的创建方式</h3><p>1）继承<code>Thread</code>类</p>
+<p>2）实现<code>Runnable</code>接口</p>
+<p>3）实现<code>Callable</code>接口</p>
+      
+      <a class="article-more-link" href="/2020/05/21/Java-%E5%A4%9A%E7%BA%BF%E7%A8%8B%E5%9F%BA%E7%A1%80/">阅读更多...</a>
+      
+      
+      <!-- reward -->
+      
+    </div>
     
     
       <!-- copyright -->
@@ -355,6 +421,25 @@
     
 
     
+    <div class="article-entry" itemprop="articleBody">
+      
+      
+
+      
+      <blockquote>
+<p>1.7 HashMap底层使用的是（Entry）数组+链表实现</p>
+<p>线程不安全，在多个线程进行插入操作时，可能会出现死循环，数据覆盖问题</p>
+<p>1.8 中HashMap底层使用的是（Node）数组+链表+红黑树实现，不会出现死循环，但仍有数据覆盖问题</p>
+<p>需要线程安全的话，建议使用ConcurrentHashMap</p>
+</blockquote>
+<img src='https://pic.downk.cc/item/5ec486b7c2a9a83be5103d16.png'>
+      
+      <a class="article-more-link" href="/2020/05/20/jdk1.7%20HashMap%E6%BA%90%E7%A0%81%E9%98%85%E8%AF%BB/">阅读更多...</a>
+      
+      
+      <!-- reward -->
+      
+    </div>
     
     
       <!-- copyright -->
@@ -416,6 +501,22 @@
     
 
     
+    <div class="article-entry" itemprop="articleBody">
+      
+      
+
+      
+      <h4 id="一、特点"><a href="#一、特点" class="headerlink" title="一、特点"></a>一、特点</h4><ol>
+<li>二分搜索树是一颗二叉树</li>
+<li>二分搜素树的每一个节点的值都大于其左子树所有节点的值，小于右子树所有节点的值<img src="https://img-blog.csdnimg.cn/20200421172624493.png?x-oss-process=image/watermark,type_ZmFuZ3poZW5naGVpdGk,shadow_10,text_aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L3FxXzQyNzAxMjk0,size_16,color_FFFFFF,t_70#pic_center" alt="在这里插入图片描述"></li>
+</ol>
+      
+      <a class="article-more-link" href="/2020/05/20/%E4%BA%8C%E5%88%86%E6%90%9C%E7%B4%A2%E6%A0%91/">阅读更多...</a>
+      
+      
+      <!-- reward -->
+      
+    </div>
     
     
       <!-- copyright -->
@@ -471,70 +572,28 @@
     
 
     
-    
-    
-      <!-- copyright -->
-      
-    <footer class="article-footer">
+    <div class="article-entry" itemprop="articleBody">
       
       
-  <ul class="article-tag-list" itemprop="keywords"><li class="article-tag-list-item"><a class="article-tag-list-link" href="/tags/%E6%97%85%E8%A1%8C/" rel="tag">旅行</a></li></ul>
 
-
-    </footer>
-
-  </div>
-
-  
-
-  
-  
-  
-
-  
-  
-  
-
-</article>
-    
-    <article id="post-hello-world" class="article article-type-post" itemscope
-  itemprop="blogPost" data-scroll-reveal>
-
-  <div class="article-inner">
-    
-    <header class="article-header">
-       
-<h2 itemprop="name">
-  <a class="article-title" href="/2020/05/19/hello-world/"
-    >Hello World</a> 
-</h2>
- 
-
-    </header>
-    
-
-    
-    <div class="article-meta">
-      <a href="/2020/05/19/hello-world/" class="article-date">
-  <time datetime="2020-05-19T15:04:06.977Z" itemprop="datePublished">2020-05-19</time>
-</a>
+      
+      <h3 id="what-do-you-want"><a href="#what-do-you-want" class="headerlink" title="what do you want"></a>what do you want</h3>
+      
+      <a class="article-more-link" href="/2020/05/19/travel/">阅读更多...</a>
       
       
-      
+      <!-- reward -->
       
     </div>
     
-
-    
-
-    
-    
     
       <!-- copyright -->
       
     <footer class="article-footer">
       
       
+  <ul class="article-tag-list" itemprop="keywords"><li class="article-tag-list-item"><a class="article-tag-list-link" href="/tags/%E9%9A%8F%E7%AC%94/" rel="tag">随笔</a></li></ul>
+
 
     </footer>
 
@@ -661,7 +720,7 @@
     </li>
     
     <li class="nav-item">
-      <a class="nav-item-link" href="/tags/%E6%97%85%E8%A1%8C/">旅行</a>
+      <a class="nav-item-link" href="/tags/%E9%9A%8F%E7%AC%94/">随笔</a>
     </li>
     
     <li class="nav-item">

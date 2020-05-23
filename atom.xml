@@ -6,7 +6,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="http://yoursite.com/"/>
-  <updated>2020-05-22T06:10:55.835Z</updated>
+  <updated>2020-05-23T04:27:07.967Z</updated>
   <id>http://yoursite.com/</id>
   
   <author>
@@ -21,17 +21,11 @@
     <link href="http://yoursite.com/2020/05/22/Java8--Stream%E6%B5%81/"/>
     <id>http://yoursite.com/2020/05/22/Java8--Stream%E6%B5%81/</id>
     <published>2020-05-22T06:10:00.000Z</published>
-    <updated>2020-05-22T06:10:55.835Z</updated>
+    <updated>2020-05-23T04:27:07.967Z</updated>
     
     <summary type="html">
     
-      
-      
-        
-        
-          &lt;h3 id=&quot;简介&quot;&gt;&lt;a href=&quot;#简介&quot; class=&quot;headerlink&quot; title=&quot;简介&quot;&gt;&lt;/a&gt;简介&lt;/h3&gt;&lt;p&gt;&lt;code&gt;java.util.Stream&lt;/code&gt; 表示能应用在一组元素上一次执行的操作序列。Stream
-        
-      
+      &lt;h3 id=&quot;简介&quot;&gt;&lt;a href=&quot;#简介&quot; class=&quot;headerlink&quot; title=&quot;简介&quot;&gt;&lt;/a&gt;简介&lt;/h3&gt;&lt;p&gt;&lt;code&gt;java.util.Stream&lt;/code&gt; 表示能应用在一组元素上一次执行的操作序列。Stream 操作分为中间操作或者最终操作两种，最终操作返回一特定类型的计算结果，而中间操作返回Stream本身，这样你就可以将多个操作依次串起来。Stream 的创建需要指定一个数据源，比如&lt;code&gt;java.util.Collection&lt;/code&gt; 的子类，List 或者 Set， Map 不支持。Stream 的操作可以串行执行或者并行执行。&lt;/p&gt;
     
     </summary>
     
@@ -48,17 +42,19 @@
     <link href="http://yoursite.com/2020/05/22/Java8--Lambda%E8%A1%A8%E8%BE%BE%E5%BC%8F/"/>
     <id>http://yoursite.com/2020/05/22/Java8--Lambda%E8%A1%A8%E8%BE%BE%E5%BC%8F/</id>
     <published>2020-05-22T06:08:00.000Z</published>
-    <updated>2020-05-22T06:14:09.823Z</updated>
+    <updated>2020-05-23T04:27:03.206Z</updated>
     
     <summary type="html">
     
-      
-      
-        
-        
-          &lt;h3 id=&quot;一、Lambda基础语法&quot;&gt;&lt;a href=&quot;#一、Lambda基础语法&quot; class=&quot;headerlink&quot;
-        
-      
+      &lt;h3 id=&quot;一、Lambda基础语法&quot;&gt;&lt;a href=&quot;#一、Lambda基础语法&quot; class=&quot;headerlink&quot; title=&quot;一、Lambda基础语法&quot;&gt;&lt;/a&gt;一、Lambda基础语法&lt;/h3&gt;&lt;p&gt;1）&lt;code&gt;-&amp;gt;&lt;/code&gt;：箭头表达式&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;p&gt;箭头左边：参数列表   ，无参使用() &lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;箭头右边：实现接口中抽象方法的实现代码&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;2）只有一个参数的话，可以省略参数的括号实现&lt;/p&gt;
+&lt;p&gt;3）只有一条语句的话，可以省略大括号，也可省略&lt;code&gt;return&lt;/code&gt;关键字&lt;/p&gt;
     
     </summary>
     
@@ -75,17 +71,15 @@
     <link href="http://yoursite.com/2020/05/21/Java-JUC%E7%BC%96%E7%A8%8B%EF%BC%881%EF%BC%89/"/>
     <id>http://yoursite.com/2020/05/21/Java-JUC%E7%BC%96%E7%A8%8B%EF%BC%881%EF%BC%89/</id>
     <published>2020-05-21T10:34:00.000Z</published>
-    <updated>2020-05-21T11:25:50.948Z</updated>
+    <updated>2020-05-23T04:27:50.977Z</updated>
     
     <summary type="html">
     
-      
-      
-        
-        
-          &lt;h3 id=&quot;一、进程与线程&quot;&gt;&lt;a href=&quot;#一、进程与线程&quot; class=&quot;headerlink&quot; title=&quot;一、进程与线程&quot;&gt;&lt;/a&gt;一、进程与线程&lt;/h3&gt;&lt;h4 id=&quot;1）区别&quot;&gt;&lt;a href=&quot;#1）区别&quot; class=&quot;headerlink&quot;
-        
-      
+      &lt;h3 id=&quot;一、进程与线程&quot;&gt;&lt;a href=&quot;#一、进程与线程&quot; class=&quot;headerlink&quot; title=&quot;一、进程与线程&quot;&gt;&lt;/a&gt;一、进程与线程&lt;/h3&gt;&lt;h4 id=&quot;1）区别&quot;&gt;&lt;a href=&quot;#1）区别&quot; class=&quot;headerlink&quot; title=&quot;1）区别&quot;&gt;&lt;/a&gt;1）区别&lt;/h4&gt;&lt;ul&gt;
+&lt;li&gt;进程是程序的一次执行过程，操作系统分配资源给进程。&lt;/li&gt;
+&lt;li&gt;一个进程包含一个或多个线程，这些线程共享进程分配的资源&lt;/li&gt;
+&lt;li&gt;线程是任务调度和执行的基本单位 &lt;/li&gt;
+&lt;/ul&gt;
     
     </summary>
     
@@ -102,17 +96,13 @@
     <link href="http://yoursite.com/2020/05/21/Java-%E5%A4%9A%E7%BA%BF%E7%A8%8B%E5%9F%BA%E7%A1%80/"/>
     <id>http://yoursite.com/2020/05/21/Java-%E5%A4%9A%E7%BA%BF%E7%A8%8B%E5%9F%BA%E7%A1%80/</id>
     <published>2020-05-21T06:34:00.000Z</published>
-    <updated>2020-05-21T11:25:48.149Z</updated>
+    <updated>2020-05-23T04:27:33.596Z</updated>
     
     <summary type="html">
     
-      
-      
-        
-        
-          &lt;h3 id=&quot;一、线程的创建方式&quot;&gt;&lt;a href=&quot;#一、线程的创建方式&quot; class=&quot;headerlink&quot;
-        
-      
+      &lt;h3 id=&quot;一、线程的创建方式&quot;&gt;&lt;a href=&quot;#一、线程的创建方式&quot; class=&quot;headerlink&quot; title=&quot;一、线程的创建方式&quot;&gt;&lt;/a&gt;一、线程的创建方式&lt;/h3&gt;&lt;p&gt;1）继承&lt;code&gt;Thread&lt;/code&gt;类&lt;/p&gt;
+&lt;p&gt;2）实现&lt;code&gt;Runnable&lt;/code&gt;接口&lt;/p&gt;
+&lt;p&gt;3）实现&lt;code&gt;Callable&lt;/code&gt;接口&lt;/p&gt;
     
     </summary>
     
@@ -129,20 +119,17 @@
     <link href="http://yoursite.com/2020/05/20/jdk1.7%20HashMap%E6%BA%90%E7%A0%81%E9%98%85%E8%AF%BB/"/>
     <id>http://yoursite.com/2020/05/20/jdk1.7%20HashMap%E6%BA%90%E7%A0%81%E9%98%85%E8%AF%BB/</id>
     <published>2020-05-19T16:00:00.000Z</published>
-    <updated>2020-05-20T09:16:15.683Z</updated>
+    <updated>2020-05-23T04:28:08.716Z</updated>
     
     <summary type="html">
     
-      
-      
-        
-        
-          &lt;blockquote&gt;
+      &lt;blockquote&gt;
 &lt;p&gt;1.7 HashMap底层使用的是（Entry）数组+链表实现&lt;/p&gt;
 &lt;p&gt;线程不安全，在多个线程进行插入操作时，可能会出现死循环，数据覆盖问题&lt;/p&gt;
-&lt;p&gt;1.8
-        
-      
+&lt;p&gt;1.8 中HashMap底层使用的是（Node）数组+链表+红黑树实现，不会出现死循环，但仍有数据覆盖问题&lt;/p&gt;
+&lt;p&gt;需要线程安全的话，建议使用ConcurrentHashMap&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;img src=&#39;https://pic.downk.cc/item/5ec486b7c2a9a83be5103d16.png&#39;&gt;
     
     </summary>
     
@@ -159,17 +146,14 @@
     <link href="http://yoursite.com/2020/05/20/%E4%BA%8C%E5%88%86%E6%90%9C%E7%B4%A2%E6%A0%91/"/>
     <id>http://yoursite.com/2020/05/20/%E4%BA%8C%E5%88%86%E6%90%9C%E7%B4%A2%E6%A0%91/</id>
     <published>2020-05-19T16:00:00.000Z</published>
-    <updated>2020-05-20T09:16:35.914Z</updated>
+    <updated>2020-05-23T04:27:32.676Z</updated>
     
     <summary type="html">
     
-      
-      
-        
-        
-          &lt;h4 id=&quot;一、特点&quot;&gt;&lt;a href=&quot;#一、特点&quot; class=&quot;headerlink&quot;
-        
-      
+      &lt;h4 id=&quot;一、特点&quot;&gt;&lt;a href=&quot;#一、特点&quot; class=&quot;headerlink&quot; title=&quot;一、特点&quot;&gt;&lt;/a&gt;一、特点&lt;/h4&gt;&lt;ol&gt;
+&lt;li&gt;二分搜索树是一颗二叉树&lt;/li&gt;
+&lt;li&gt;二分搜素树的每一个节点的值都大于其左子树所有节点的值，小于右子树所有节点的值&lt;img src=&quot;https://img-blog.csdnimg.cn/20200421172624493.png?x-oss-process=image/watermark,type_ZmFuZ3poZW5naGVpdGk,shadow_10,text_aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L3FxXzQyNzAxMjk0,size_16,color_FFFFFF,t_70#pic_center&quot; alt=&quot;在这里插入图片描述&quot;&gt;&lt;/li&gt;
+&lt;/ol&gt;
     
     </summary>
     
@@ -184,46 +168,17 @@
     <link href="http://yoursite.com/2020/05/19/travel/"/>
     <id>http://yoursite.com/2020/05/19/travel/</id>
     <published>2020-05-19T15:26:13.000Z</published>
-    <updated>2020-05-22T06:10:22.614Z</updated>
+    <updated>2020-05-23T04:31:58.872Z</updated>
     
     <summary type="html">
     
-      
-      
-        
-        
-          &lt;h3 id=&quot;what-do-you-want&quot;&gt;&lt;a href=&quot;#what-do-you-want&quot; class=&quot;headerlink&quot; title=&quot;what do you want&quot;&gt;&lt;/a&gt;what do you
-        
-      
+      &lt;h3 id=&quot;what-do-you-want&quot;&gt;&lt;a href=&quot;#what-do-you-want&quot; class=&quot;headerlink&quot; title=&quot;what do you want&quot;&gt;&lt;/a&gt;what do you want&lt;/h3&gt;
     
     </summary>
     
     
     
-      <category term="旅行" scheme="http://yoursite.com/tags/%E6%97%85%E8%A1%8C/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>Hello World</title>
-    <link href="http://yoursite.com/2020/05/19/hello-world/"/>
-    <id>http://yoursite.com/2020/05/19/hello-world/</id>
-    <published>2020-05-19T15:04:06.977Z</published>
-    <updated>2020-05-19T15:04:06.977Z</updated>
-    
-    <summary type="html">
-    
-      
-      
-        
-        
-          &lt;p&gt;Welcome to &lt;a href=&quot;https://hexo.io/&quot; target=&quot;_blank&quot; rel=&quot;noopener&quot;&gt;Hexo&lt;/a&gt;! This is your very first post. Check &lt;a
-        
-      
-    
-    </summary>
-    
-    
+      <category term="随笔" scheme="http://yoursite.com/tags/%E9%9A%8F%E7%AC%94/"/>
     
   </entry>
   
