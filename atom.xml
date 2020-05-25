@@ -6,7 +6,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="http://yoursite.com/"/>
-  <updated>2020-05-25T03:10:08.268Z</updated>
+  <updated>2020-05-25T06:36:41.883Z</updated>
   <id>http://yoursite.com/</id>
   
   <author>
@@ -17,22 +17,48 @@
   <generator uri="https://hexo.io/">Hexo</generator>
   
   <entry>
+    <title>Java-JUC编程（3）</title>
+    <link href="http://yoursite.com/2020/05/25/Java-JUC%E7%BC%96%E7%A8%8B%EF%BC%883%EF%BC%89/"/>
+    <id>http://yoursite.com/2020/05/25/Java-JUC%E7%BC%96%E7%A8%8B%EF%BC%883%EF%BC%89/</id>
+    <published>2020-05-25T06:01:01.000Z</published>
+    <updated>2020-05-25T06:36:41.883Z</updated>
+    
+    <summary type="html">
+    
+      &lt;h3 id=&quot;一、Java内存模型&quot;&gt;&lt;a href=&quot;#一、Java内存模型&quot; class=&quot;headerlink&quot; title=&quot;一、Java内存模型&quot;&gt;&lt;/a&gt;一、Java内存模型&lt;/h3&gt;&lt;blockquote&gt;
+&lt;p&gt;JMM：Java内存模型，不存在的东西，概念！约定！ &lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;&lt;strong&gt;关于JMM的一些同步的约定&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;1、线程加锁前，必须读取主存中的新值到工作内存中！ &lt;/p&gt;
+&lt;p&gt;2、线程解锁前，必须把共享变量立刻刷回主存。&lt;/p&gt;
+&lt;p&gt;3、加锁和解锁是同一把锁 &lt;/p&gt;
+    
+    </summary>
+    
+    
+      <category term="Java" scheme="http://yoursite.com/categories/Java/"/>
+    
+    
+      <category term="并发编程" scheme="http://yoursite.com/tags/%E5%B9%B6%E5%8F%91%E7%BC%96%E7%A8%8B/"/>
+    
+  </entry>
+  
+  <entry>
     <title>Java-JUC编程（2）</title>
     <link href="http://yoursite.com/2020/05/25/Java-JUC%E7%BC%96%E7%A8%8B%EF%BC%882%EF%BC%89/"/>
     <id>http://yoursite.com/2020/05/25/Java-JUC%E7%BC%96%E7%A8%8B%EF%BC%882%EF%BC%89/</id>
     <published>2020-05-25T03:01:01.000Z</published>
-    <updated>2020-05-25T03:10:08.268Z</updated>
+    <updated>2020-05-25T06:35:46.796Z</updated>
     
     <summary type="html">
     
-      
-      
-        
-        
-          &lt;h3 id=&quot;一、阻塞队列&quot;&gt;&lt;a href=&quot;#一、阻塞队列&quot; class=&quot;headerlink&quot; title=&quot;一、阻塞队列&quot;&gt;&lt;/a&gt;一、阻塞队列&lt;/h3&gt;&lt;blockquote&gt;
-&lt;p&gt;java.util.concurrent.BolckingQueue   
-        
-      
+      &lt;h3 id=&quot;一、阻塞队列&quot;&gt;&lt;a href=&quot;#一、阻塞队列&quot; class=&quot;headerlink&quot; title=&quot;一、阻塞队列&quot;&gt;&lt;/a&gt;一、阻塞队列&lt;/h3&gt;&lt;blockquote&gt;
+&lt;p&gt;java.util.concurrent.BolckingQueue    ：是一个接口&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;https://img-blog.csdnimg.cn/20200525110303505.png?x-oss-process=image/watermark,type_ZmFuZ3poZW5naGVpdGk,shadow_10,text_aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L3FxXzQyNzAxMjk0,size_16,color_FFFFFF,t_70#pic_center&quot; alt=&quot;在这里插入图片描述&quot;&gt;&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;继承关系：&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;https://img-blog.csdnimg.cn/20200525110317249.png?x-oss-process=image/watermark,type_ZmFuZ3poZW5naGVpdGk,shadow_10,text_aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L3FxXzQyNzAxMjk0,size_16,color_FFFFFF,t_70#pic_center&quot; alt=&quot;在这里插入图片描述&quot;&gt;&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;生产者-消费者模型&lt;/strong&gt;&lt;/p&gt;
+&lt;/blockquote&gt;
     
     </summary>
     
